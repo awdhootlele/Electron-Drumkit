@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "hear-me-type",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Tutorial to build electron JS application that will pop a sound when you type something ",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
