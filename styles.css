@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid lightpink;
+    vertical-align: middle;
+    text-align: center;
+    background: transparent;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+kbd{
+    background-color: blueviolet;
+}
+.col-xs-12 {
+    display: flex;
+}
+.my-container{
+    height: calc(100vh - 156px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/concert.jpg");
+    background-repeat: no-repeat;
+}
