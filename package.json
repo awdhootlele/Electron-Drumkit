@@ -1,7 +1,7 @@
 {
-  "name": "hear-me-type",
+  "name": "electron-drumkit",
   "version": "1.0.0",
-  "description": "Tutorial to build electron JS application that will pop a sound when you type something ",
+  "description": "Tutorial to build electron JS application that will pop a sound when you type something - just like a drumkit",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
